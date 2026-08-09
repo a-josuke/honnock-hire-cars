@@ -16323,7 +16323,7 @@ li.has-dropdown:hover .submenu {
   margin-bottom: 35px;
 }
 .rts-banner-wrapper-area .banner-left-content-area .price {
-  color: var(--color-primary);
+  color: #00D2FF;
   font-size: 80px;
   font-weight: var(--f-medium);
   line-height: 1;
