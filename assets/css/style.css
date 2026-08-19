@@ -23784,6 +23784,15 @@ li.has-dropdown:hover .submenu {
   left: 0;
   margin: -1em 0 0 2em;
 }
+.header-pdf-btn {
+  white-space: nowrap;
+}
+@media (max-width: 1399px) {
+  .header-pdf-btn {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+}
 /*# sourceMappingURL=../maps/style.css.map */
 
 .rts-footer-area {
