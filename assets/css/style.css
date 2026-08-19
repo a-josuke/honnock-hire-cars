@@ -23793,6 +23793,30 @@ li.has-dropdown:hover .submenu {
     padding: 12px 16px;
   }
 }
+.header-one.sticky .nav-area ul li.main-nav a:first-child {
+  padding: 30px 12px;
+  font-size: 14px;
+}
+.header-one.sticky .header-right .bottom .logo-area img {
+  width: 150px;
+}
+.header-one.sticky .header-pdf-btn {
+  font-size: 13px;
+  padding: 10px 14px;
+}
+@media (max-width: 1450px) {
+  .header-one.sticky .nav-area ul li.main-nav a:first-child {
+    padding: 28px 8px;
+    font-size: 13px;
+  }
+  .header-one.sticky .header-right .bottom .logo-area img {
+    width: 120px;
+  }
+  .header-one.sticky .header-pdf-btn {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}
 /*# sourceMappingURL=../maps/style.css.map */
 
 .rts-footer-area {

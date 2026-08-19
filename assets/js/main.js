@@ -575,6 +575,7 @@
               equalheight: true,
             },
           });
+          window.rtsCarIsotope = iso;
 
           // filter functions
           var filterFns = {
