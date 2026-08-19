@@ -16761,6 +16761,16 @@ li.has-dropdown:hover .submenu {
   position: relative;
   border-radius: 20px;
 }
+.about-letf-image-area-two .about-image-area img {
+  width: 585px;
+  height: 542px;
+  object-fit: cover;
+}
+.about-letf-image-area-two .inner-image-sm .overlay-image img {
+  width: 242px;
+  height: 149px;
+  object-fit: cover;
+}
 .about-letf-image-area-two .about-image-area::before {
   content: "";
   position: absolute;
@@ -18511,6 +18521,11 @@ li.has-dropdown:hover .submenu {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
+}
+.rts-process-item-wrapper .single-process-item .image-area img {
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
 }
 .rts-process-item-wrapper .single-process-item .image-area::before {
   content: "";
