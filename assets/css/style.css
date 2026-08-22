@@ -23843,6 +23843,19 @@ li.has-dropdown:hover .submenu {
 .web3forms-feedback.error {
   color: #721c24;
 }
+@media only screen and (max-width: 767px) {
+  .rts-portfolio-area.inner .portfolio-details-area ul li {
+    width: 100%;
+  }
+  .rts-portfolio-area.inner .portfolio-details-area ul.feature-list2 li {
+    width: 100%;
+    padding: 14px 0;
+    border-width: 0 0 1px 0 !important;
+  }
+  .rts-portfolio-area.inner .portfolio-details-area ul.feature-list2 li:nth-child(1) {
+    border-top: 1px solid rgba(85, 85, 85, 0.25);
+  }
+}
 /*# sourceMappingURL=../maps/style.css.map */
 
 .rts-footer-area {
