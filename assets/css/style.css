@@ -23856,6 +23856,9 @@ li.has-dropdown:hover .submenu {
     border-top: 1px solid rgba(85, 85, 85, 0.25);
   }
 }
+.rts-portfolio-area.inner .portfolio-details-area form .nice-select {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=../maps/style.css.map */
 
 .rts-footer-area {

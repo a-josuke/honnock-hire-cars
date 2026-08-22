@@ -25,6 +25,7 @@
       rtsJs.stickyHeader();
       rtsJs.backToTopInit();
       rtsJs.sideMenu();
+      rtsJs.heroSearchRedirect();
       rtsJs.niceSelect();
       rtsJs.vedioActivation();
       rtsJs.videoActive();
@@ -452,6 +453,12 @@
       $(document).on('click', '.onepage .mainmenu li a', function () {
         $("#side-bar").removeClass("show");
         $("#anywhere-home").removeClass("show");
+      });
+    },
+    heroSearchRedirect: function () {
+      $(document).on('click', '.banner-right-form-area .search-btn', function (event) {
+        event.preventDefault();
+        window.location.href = 'fleet-two.html';
       });
     },
     niceSelect: function () {
