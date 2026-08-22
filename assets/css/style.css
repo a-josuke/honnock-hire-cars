@@ -23859,12 +23859,34 @@ li.has-dropdown:hover .submenu {
 .rts-portfolio-area.inner .portfolio-details-area form .nice-select {
   margin-bottom: 20px;
   float: none;
+  height: auto;
+  line-height: normal;
+  padding: 9px 40px 9px 15px;
+  border: 1px solid rgba(85, 85, 85, 0.25);
+  border-radius: 4px;
+  background: var(--color-white);
+}
+.rts-portfolio-area.inner .portfolio-details-area form .nice-select:after {
+  display: block;
+  right: 15px;
 }
 .rts-contact-form .contact-form-area .single-input .nice-select {
   float: none;
 }
 .rts-contact-form .contact-form-area .single-input.car-model-field {
   z-index: 20;
+}
+.rts-contact-form .contact-form-area .single-input.car-model-field .nice-select {
+  height: auto;
+  line-height: normal;
+  padding: 12px 45px 12px 45px;
+  border: 1px solid rgba(85, 85, 85, 0.15);
+  border-radius: 6px;
+  background: var(--color-white);
+}
+.rts-contact-form .contact-form-area .single-input.car-model-field .nice-select:after {
+  display: block;
+  right: 20px;
 }
 /*# sourceMappingURL=../maps/style.css.map */
 
