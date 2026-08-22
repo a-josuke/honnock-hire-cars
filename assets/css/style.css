@@ -23832,6 +23832,17 @@ li.has-dropdown:hover .submenu {
     padding: 8px 10px;
   }
 }
+.web3forms-feedback {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.web3forms-feedback.success {
+  color: #155724;
+}
+.web3forms-feedback.error {
+  color: #721c24;
+}
 /*# sourceMappingURL=../maps/style.css.map */
 
 .rts-footer-area {
