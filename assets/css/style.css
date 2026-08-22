@@ -20003,6 +20003,7 @@ li.has-dropdown:hover .submenu {
   position: absolute;
   top: 12px;
   left: 20px;
+  z-index: 2;
 }
 .rts-contact-form .contact-form-area .single-input input,
 .rts-contact-form .contact-form-area .single-input textarea {
