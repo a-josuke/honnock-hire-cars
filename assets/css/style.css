@@ -23858,6 +23858,10 @@ li.has-dropdown:hover .submenu {
 }
 .rts-portfolio-area.inner .portfolio-details-area form .nice-select {
   margin-bottom: 20px;
+  float: none;
+}
+.rts-contact-form .contact-form-area .single-input .nice-select {
+  float: none;
 }
 /*# sourceMappingURL=../maps/style.css.map */
 
