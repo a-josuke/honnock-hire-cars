@@ -1681,6 +1681,15 @@
                 grid.appendChild(fragment);
                 if (window.rtsCarIsotope) {
                     window.rtsCarIsotope.appended(newItems);
+                    // appended() positions the new items but doesn't grow the grid
+                    // container's own height, since that's recalculated from
+                    // filteredItems (set by the last arrange() call, i.e. still just
+                    // the original items). Without this, the container stays sized
+                    // for the old row count and the buttons below it overlap the
+                    // newly added row. arrange() re-filters against the full item
+                    // list (now including the new items) and resizes the container
+                    // to fit.
+                    window.rtsCarIsotope.arrange();
                 }
                 loadMoreBtn.closest('.rts-btn-wrapper').style.display = 'none';
             });
