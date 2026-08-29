@@ -20305,9 +20305,11 @@ li.has-dropdown:hover .submenu {
   right: 0;
   bottom: -1px;
   background: var(--color-white);
-  height: 70px;
-  max-width: 266px;
-  width: 100%;
+  min-height: 70px;
+  min-width: 266px;
+  width: max-content;
+  max-width: calc(100% - 40px);
+  padding: 10px 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20339,9 +20341,11 @@ li.has-dropdown:hover .submenu {
 .rts-breadcrumb-area .nav-bread-crumb .nav-inner {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 8px;
   position: relative;
-  z-index: -1;
+  z-index: 2;
 }
 .rts-breadcrumb-area .nav-bread-crumb .nav-inner a {
   font-size: 20px;
